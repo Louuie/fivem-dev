@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "node ./prod.build.js",
+    "watch": "node ./dev.build.js"
+  },
+  "devDependencies": {
+    "@citizenfx/client": "^2.0.5815-1",
+    "@types/node": "^18.7.6",
+    "esbuild": "^0.15.5",
+    "tiny-glob": "^0.2.9",
+    "typescript": "^4.7.4"
+  }
+}
