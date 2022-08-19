@@ -4,6 +4,7 @@ export const seat = (): void => {
         const [seat] = args;
         const vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
         if (vehicle == 0) console.log('the ped isnt in a vehicle!');
+        
         SetPedIntoVehicle(PlayerPedId(), vehicle, parseInt(seat));
         SetEntityAsNoLongerNeeded(vehicle);
     }, false);
